@@ -1,0 +1,40 @@
+PODS:
+  - Expecta (1.0.6)
+  - Protobuf (3.7.0)
+  - Specta (1.0.7)
+  - Textile (0.1.0.pre.3):
+    - Protobuf (~> 3.7)
+    - TextileCore (~> 0.1.10-rc3)
+  - TextileCore (0.1.10-rc4):
+    - Protobuf (~> 3.7)
+  - TextileImage (0.1.0):
+    - Textile (= 0.1.0.pre.3)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - TextileImage (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Protobuf
+    - Specta
+    - Textile
+    - TextileCore
+
+EXTERNAL SOURCES:
+  TextileImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  Textile: 8291563297df30269dc6112576c9add6b6856cee
+  TextileCore: 883c02b087e26c9c70ad9718ca51c83a90b9bb99
+  TextileImage: b9042801fbb50842c79d1a9d96b558215a5c03fd
+
+PODFILE CHECKSUM: 0c3d3929166fb9ca491ca902997d5d1ebaf4f832
+
+COCOAPODS: 1.6.1
